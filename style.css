@@ -34,3 +34,25 @@ h1 {
     color: white;
 }
 
+/* Second Section */
+
+.secondpage {
+    display: flex;
+}
+.sec-2 {
+    width: 50%;
+    padding-right: 2%;
+}
+.sec-2 img {
+    width: 80%;
+}
+
+/* Download Button style */
+
+.dresume-style {
+    text-decoration: none;
+    background-image:linear-gradient(yellow, red) ;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+}
