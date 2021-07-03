@@ -10,11 +10,15 @@ h1 {
     color: orange;
 }
 /* Section style */
+section {
+    margin-bottom: 80px;
+}
 
 .firstpage {
     display: flex;
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+    
     
 }
 .sec-1 {
@@ -38,6 +42,9 @@ h1 {
 
 .secondpage {
     display: flex;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .sec-2 {
     width: 50%;
@@ -55,4 +62,9 @@ h1 {
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
+}
+
+/* Third Page */
+.sec-main{
+    display: flex;
 }
